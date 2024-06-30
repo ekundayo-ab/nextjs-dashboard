@@ -7,7 +7,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "prettier": "@vercel/style-guide/prettier",
   "dependencies": {
     "@heroicons/react": "^2.1.4",
     "@tailwindcss/forms": "^0.5.7",
@@ -31,7 +30,9 @@
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@vercel/style-guide": "^6.0.0",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.2.4",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5"
   },
   "engines": {
     "node": ">=20.12.0"
